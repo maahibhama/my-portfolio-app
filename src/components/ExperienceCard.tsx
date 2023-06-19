@@ -4,7 +4,7 @@ interface Props {
   title: string;
   subTitle: string;
   icon: ReactNode;
-  description: ReactNode;
+  description?: ReactNode;
 }
 
 const ExperienceCard = ({ title, subTitle, icon, description }: Props) => {
