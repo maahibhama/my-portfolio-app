@@ -3,7 +3,7 @@ import { MdWork } from "react-icons/md";
 import { SiReactivex, SiToptal, SiFreelancer, SiFiverr } from "react-icons/si";
 import ExperienceCard from "./ExperienceCard";
 
-const Experience = () => {
+const Eduction = () => {
   return (
     <div className="wrapper">
       <Title text="Experiences" icon={<MdWork />} />
@@ -35,4 +35,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Eduction;

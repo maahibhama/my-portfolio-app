@@ -1,11 +1,12 @@
+import { locales } from '@/locales'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: "Mahendra Bhama | Lead Engineer",
-  description: 'My portfolio website',
+  title: locales.title,
+  description: locales.titleDesc,
 }
 
 export default function RootLayout({
