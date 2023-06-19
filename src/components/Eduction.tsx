@@ -17,7 +17,7 @@ const Eduction = () => {
               title={item.title}
               url={item.url}
               subTitle={item.position}
-              icon={<Image src={item.imageUrl} />}
+              icon={<Image src={item.imageUrl} alt={item.title} />}
               description={item.description}
             />
           );
