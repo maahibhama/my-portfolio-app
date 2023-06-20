@@ -3,7 +3,7 @@ import Title from "./Title";
 
 interface Props {
   title: string;
-  subTitle: string;
+  subTitle: ReactNode;
   url: string;
   icon: ReactNode;
   description?: ReactNode;
