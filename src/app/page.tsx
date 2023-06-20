@@ -13,16 +13,14 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="w-full bg-gray-950 text-gray-300 px-4">
+    <main className="w-full bg-gradient-to-r from-gray-900 to-black text-gray-300 px-4">
       <div className="max-w-screen-xl mx-auto lg:pt-10">
       <NavBar/>
         <Banner />
         <Aboutme />
         <Experience />
-        <TechSkills/>
         <Skills />
-        <Tools/>
-        <Projects />
+        {/* <Projects /> */}
         <Eduction/>
         <Contact />
         <Footer />
