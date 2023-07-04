@@ -2,7 +2,9 @@ import brightLogo from "../../public/img/experience/brightLogo.png";
 import finvolvLogo from "../../public/img/experience/finvolvLogo.png";
 import nobulLogo from "../../public/img/experience/nobulLogo.png";
 import cacaoLogo from "../../public/img/experience/cacaoLogo.png";
-
+import hdfcLogo from "../../public/img/projects/hdfcLogo.png";
+import clinkLogo from "../../public/img/projects/clinkLogo.png"
+import { AiOutlineLink } from "react-icons/ai";
 import ditLogo from "../../public/img/education/ditLogo.png";
 import { locales } from "@/locales";
 
@@ -314,5 +316,261 @@ export const EducationData = [
     endYear: "Present",
     timeDuration: "",
     imageUrl: ditLogo,
+  },
+];
+
+const BrightMoneyProjectDetails = () => {
+  return (
+    <div className="">
+      <p>{locales.brightMoneyProjectDetails}</p>
+      <div className="mt-3 flex gap-2">
+        <p>&#x2022;</p>
+        <p>
+          <span className="font-bold">
+            {locales.brightMoneyProject_Point_1}
+          </span>
+        </p>
+      </div>
+      <div className="mt-3 flex gap-2">
+        <p>&#x2022;</p>
+        <p>{locales.brightMoneyProject_Point_2}</p>
+      </div>
+      <div className="mt-3 flex gap-2">
+        <p>
+          <span className="font-bold">{locales.skills}</span>
+          <span className=" text-gray-400">
+            {locales.brightMoneyProject_skills}
+          </span>
+        </p>
+      </div>
+      <div className="mt-3 flex gap-4">
+        <a href={"https://www.brightmoney.co/"} target="_blank">
+          <button className="font-bold flex gap-2 hover:underline 0 items-center ">
+            <AiOutlineLink />{" "}
+            <span className="hover:text-cyan-30">Web App</span>
+          </button>
+        </a>
+        <a
+          href={
+            "https://play.google.com/store/apps/details?id=com.brightcapital.app&hl=en_US"
+          }
+          target="_blank"
+        >
+          <button className="font-bold flex gap-2 hover:underline 0 items-center ">
+            <AiOutlineLink />{" "}
+            <span className="hover:text-cyan-30">Android App</span>
+          </button>
+        </a>
+        <a
+          href={
+            "https://apps.apple.com/us/app/bright-crush-your-card-debt/id1511043796"
+          }
+          target="_blank"
+        >
+          <button className="font-bold flex gap-2 hover:underline 0 items-center ">
+            <AiOutlineLink />{" "}
+            <span className="hover:text-cyan-30">iOS App</span>
+          </button>
+        </a>
+      </div>
+    </div>
+  );
+};
+
+const HDFCProjectDetails = () => {
+  return (
+    <div className="">
+      <p>{locales.hdfcProjectDetails}</p>
+      <div className="mt-3 flex gap-2">
+        <p>&#x2022;</p>
+        <p>
+          <span className="">{locales.hdfcProject_point_1}</span>
+        </p>
+      </div>
+      <div className="mt-3 flex gap-2">
+        <p>&#x2022;</p>
+        <p>
+          <span className="font-bold">{locales.hdfcProject_point_2}</span>
+        </p>
+      </div>
+      <div className="mt-3 flex gap-2">
+        <p>&#x2022;</p>
+        <p>
+          <span className="">{locales.hdfcProject_point_3}</span>
+        </p>
+      </div>
+      <div className="mt-3 flex gap-2">
+        <p>
+          <span className="font-bold">{locales.skills}</span>
+          <span className=" text-gray-400">{locales.hdfcProject_skills}</span>
+        </p>
+      </div>
+      <div className="mt-3 flex gap-4">
+        <a
+          href={
+            "https://apps.apple.com/eg/app/hdfc-life-insurance-app/id900441427"
+          }
+          target="_blank"
+        >
+          <button className="font-bold flex gap-2 hover:underline 0 items-center ">
+            <AiOutlineLink />{" "}
+            <span className="hover:text-cyan-30">iOS App</span>
+          </button>
+        </a>
+      </div>
+    </div>
+  );
+};
+
+const LendProjectDetails = () => {
+  return (
+    <div className="">
+      <p>{locales.LendProjectDetails}</p>
+      <div className="mt-3 flex gap-2">
+        <p>&#x2022;</p>
+        <p>
+          <span className="">{locales.LendProject_Point_1}</span>
+        </p>
+      </div>
+      <div className="mt-3 flex gap-2">
+        <p>&#x2022;</p>
+        <p>
+          <span className="font-bold">{locales.LendProject_Point_2}</span>
+        </p>
+      </div>
+      <div className="mt-3 flex gap-2">
+        <p>&#x2022;</p>
+        <p>
+          <span className="">{locales.LendProject_Point_3}</span>
+        </p>
+      </div>
+      <div className="mt-3 flex gap-2">
+        <p>
+          <span className="font-bold">{locales.skills}</span>
+          <span className=" text-gray-400">{locales.LendProject_skills}</span>
+        </p>
+      </div>
+      <div className="mt-3 flex gap-4">
+        <a
+          href={
+            "https://apps.apple.com/eg/app/hdfc-life-insurance-app/id900441427"
+          }
+          target="_blank"
+        >
+          <button className="font-bold flex gap-2 hover:underline 0 items-center ">
+            <AiOutlineLink />{" "}
+            <span className="hover:text-cyan-30">iOS App</span>
+          </button>
+        </a>
+      </div>
+    </div>
+  );
+};
+
+const ClinkProjectDetails = () => {
+  return (
+    <div className="">
+      <p>{locales.clinkProjectDetails}</p>
+      <div className="mt-3 flex gap-2">
+        <p>&#x2022;</p>
+        <p>
+          <span className="font-bold">{locales.clickProject_Point_1}</span>
+        </p>
+      </div>
+      <div className="mt-3 flex gap-2">
+        <p>&#x2022;</p>
+        <p>
+          <span className="">{locales.clickProject_Point_2}</span>
+        </p>
+      </div>
+      <div className="mt-3 flex gap-2">
+        <p>&#x2022;</p>
+        <p>
+          <span className="">{locales.clickProject_Point_3}</span>
+        </p>
+      </div>
+      <div className="mt-3 flex gap-2">
+        <p>
+          <span className="font-bold">{locales.skills}</span>
+          <span className=" text-gray-400">{locales.LendProject_skills}</span>
+        </p>
+      </div>
+      <div className="mt-3 flex gap-4">
+        <a
+          href={
+            "https://apps.apple.com/eg/app/hdfc-life-insurance-app/id900441427"
+          }
+          target="_blank"
+        >
+          <button className="font-bold flex gap-2 hover:underline 0 items-center ">
+            <AiOutlineLink />{" "}
+            <span className="hover:text-cyan-30">Android App</span>
+          </button>
+        </a>
+        <a
+          href={
+            "https://apps.apple.com/eg/app/hdfc-life-insurance-app/id900441427"
+          }
+          target="_blank"
+        >
+          <button className="font-bold flex gap-2 hover:underline 0 items-center ">
+            <AiOutlineLink />{" "}
+            <span className="hover:text-cyan-30">iOS App</span>
+          </button>
+        </a>
+      </div>
+    </div>
+  );
+};
+
+export const ProjectsData = [
+  {
+    title: "Bright Money (web and mobile app)",
+    location: "Bengaluru, India",
+    position: "Associated with Bright Money",
+    url: "https://www.brightmoney.co/",
+    description: <BrightMoneyProjectDetails />,
+    techStack: [],
+    startYear: "Oct 2022",
+    endYear: "Present",
+    timeDuration: "",
+    imageUrl: brightLogo,
+  },
+  {
+    title: "HDFC life insurance (iOS application)",
+    location: "Bengaluru, India",
+    position: "Associated with Finvolv",
+    url: "https://onlineinsurance.hdfclife.com/",
+    description: <HDFCProjectDetails />,
+    techStack: [],
+    startYear: "Oct 2022",
+    endYear: "Present",
+    timeDuration: "",
+    imageUrl: hdfcLogo,
+  },
+
+  {
+    title: "Lend.in product(kuliza)​— R​eactNative/React",
+    location: "Bengaluru, India",
+    position: "Associated with Finvolv",
+    url: "https://finvolv.ai/",
+    description: <LendProjectDetails />,
+    techStack: [],
+    startYear: "Oct 2022",
+    endYear: "Present",
+    timeDuration: "",
+    imageUrl: finvolvLogo,
+  },
+  {
+    title: "Clink —​ i​OS and Android(React Native)",
+    location: "Bengaluru, India",
+    position: "Freelance",
+    url: "https://www.linkedin.com/company/clinkatwork/",
+    description: <ClinkProjectDetails />,
+    techStack: [],
+    startYear: "Oct 2022",
+    endYear: "Present",
+    timeDuration: "",
+    imageUrl: clinkLogo,
   },
 ];

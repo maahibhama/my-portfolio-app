@@ -3,6 +3,7 @@ export const locales = {
   titleDesc: "My portfolio website",
   name: "Mahendra Bhama",
   position: "Lead Engineer at Bright",
+  skills: 'Skills: - ',
   descriptions:
     "Having extensive expertise in Frontend Engineering Design Systems as well as the related technologies, I have created highly functional frontend systems & UIs/UXs for global companies.",
   aboutMeDescriptions:
@@ -116,4 +117,27 @@ export const locales = {
   skillHeader_1: 'Programming Languages',
   skillHeader_2: 'Libraries & Frameworks',
   skillHeader_3: 'Tools & Platforms',
+
+  brightMoneyProjectDetails: 'Bright is a super app for crushing credit card debt. Start with a low-interest line of credit. No credit check is required. Instant approvals. Use it to pay off high-interest cards today.',
+  brightMoneyProject_Point_1: 'I design the application architecture, write high-quality code, and ensure it meets functional and performance requirements. Collaborating with the team, I troubleshoot and optimize the app, implement testing strategies, and set up CI/CD pipelines for smooth deployment',
+  brightMoneyProject_Point_2: 'Additionally, I provide technical guidance, document the project, and communicate effectively with stakeholders. My role involves delivering a feature-rich, performant, and user-friendly React Native application, showcasing strong leadership and technical skills.',
+  brightMoneyProject_skills: 'Node.js · Mixpanel · Sentry · Crashlytics · Firebase · Amazon S3 · Android Development · ci/cd · Jenkins · GitHub · React.js · Kotlin · Swift · React Native · iOS Development · Objective-C · Git · Java.',
+
+  hdfcProjectDetails: 'The HDFC Life Insurance App aims at fulfilling dual objective of purchasing insurance policies and policy servicing.',
+  hdfcProject_point_1: 'Explore insurance plans across five categories; Term Insurance, Savings & Investment, Health, Retirement and Child plans.',
+  hdfcProject_point_2: 'I collaborate with the team to understand project requirements and design the application architecture. I write clean and efficient code in Swift or Objective-C, ensuring adherence to coding standards and best practices. ',
+  hdfcProject_point_3: 'Additionally, I collaborate with designers and product managers, troubleshoot issues, and contribute to the overall improvement of the iOS development process, demonstrating strong technical skills and a focus on delivering high-quality iOS applications.',
+  hdfcProject_skills: 'SwiftUI · Fastlane · Jira · figma · Mixpanel · GitHub · Swift · iOS Development · Xcode · Git · Cocoa Touch · Gitlab',
+
+  LendProjectDetails: 'Built the in house product for the company which helps in bootstrapping company products for clients from configurations.',
+  LendProject_Point_1: 'It helped with the developer experience within the company and reduced the new onboarding of clients from week to few hours.',
+  LendProject_Point_2:' I play a crucial role in developing web and mobile applications using these frameworks. Collaborating with the team, I analyze requirements, design application architecture, and write clean, maintainable code in JavaScript. ',
+  LendProject_Point_3: ' I implement UI components, handle state management, and integrate with backend APIs. I conduct comprehensive testing, including unit tests and integration tests, to ensure the application meets functional requirements. I troubleshoot issues, optimize performance, and contribute to the continuous improvement of the development process.',
+  LendProject_skills: 'React, React Native, Swift, Android, npm, Xcode, VScode, Android Studio, Jira, Bitbucket.',
+
+  clinkProjectDetails: 'Clink is a feedback sharing app for teams, that helps you share, organize & analyze feedback, especially for remote working.',
+  clickProject_Point_1: 'my responsibilities include leading and contributing to the development of a complex mobile application',
+  clickProject_Point_2: 'I collaborate with the team to design the application architecture, write high-quality code, and ensure adherence to best practices.',
+  clickProject_Point_3: 'I establish a comprehensive testing strategy and optimize performance for a smooth user experience. Troubleshooting, bug fixing, and maintaining documentation are also vital parts of my role. Effective communication and collaboration with cross-functional teams are essential for successful project delivery',
+  clickProject_skills: 'CocoaPods · React.js · Android · Kotlin · Swift · React Native · JavaScript · Objective-C · iOS · Java'
 };

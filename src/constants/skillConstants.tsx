@@ -142,7 +142,7 @@ export const ToolsPlatforms = [
     link: "https://sentry.io/",
   },
   {
-    name: "singular",
+    name: "Singular",
     link: "https://www.singular.net/",
   },
   {
@@ -166,7 +166,7 @@ export const ToolsPlatforms = [
     link: "https://clickup.com/",
   },
   {
-    name: 'sanity cms',
+    name: 'Sanity cms',
     link: 'https://www.sanity.io/'
   },
   {
@@ -186,7 +186,7 @@ export const ToolsPlatforms = [
     link: "https://about.gitlab.com/topics/ci-cd/",
   },
   {
-    name: "jenkins",
+    name: "Jenkins",
     link: "https://www.jenkins.io/",
   },
   {

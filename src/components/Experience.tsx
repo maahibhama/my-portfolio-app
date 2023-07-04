@@ -16,6 +16,7 @@ const Experience = () => {
               title={item.title}
               url={item.url}
               subTitle={item.position}
+              location={item.location}
               icon={<Image src={item.imageUrl} alt={item.title} />}
               description={item.description}
             />
